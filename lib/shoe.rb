@@ -66,7 +66,7 @@ end
   end 
   
   def cobble
-    if new 
+    @condition = new 
       puts "The shoe has been repaired"
   end
 end
