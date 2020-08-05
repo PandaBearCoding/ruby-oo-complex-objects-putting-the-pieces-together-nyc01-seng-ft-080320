@@ -66,7 +66,8 @@ end
   end 
   
   def cobble
-    puts "The shoe has been repaired"
+    if new 
+      puts "The shoe has been repaired"
   end
 end
 
