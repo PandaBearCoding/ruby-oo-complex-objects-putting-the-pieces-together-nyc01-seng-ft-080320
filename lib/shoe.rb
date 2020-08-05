@@ -34,7 +34,7 @@ class Shoe
     @material 
   end 
   
-  def conition=(condition)
+  def condition=(condition)
     @condition
   end 
   
@@ -52,5 +52,21 @@ class Shoe
 end
 
  
+ # but better yet, to clean up the code
+ 
+ class Shoe
+   attr_accessor :color, :size, :material, :condition, :cobble
+   
+   def initialize(brand)
+    @brand= brand
+  end
+  
+  def brand
+    @brand
+  end 
+end
+
+
+   
   
   
