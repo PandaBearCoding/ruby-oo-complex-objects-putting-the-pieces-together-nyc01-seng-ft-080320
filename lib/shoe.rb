@@ -3,7 +3,7 @@
 class Shoe
   
   def initialize(brand)
-    @brand= brand
+    @brand = brand
   end
   
   def brand
@@ -58,7 +58,7 @@ end
    attr_accessor :color, :size, :material, :condition, :cobble
    
    def initialize(brand)
-    @brand= brand
+    @brand = brand
   end
   
   def brand
