@@ -71,6 +71,14 @@ end
   end
 end
 
+
+
+shoe = Shoe.new("black")
+shoe.color
+
+shoe = Shoe.new(7)
+shoe.size
+
    
   
   
